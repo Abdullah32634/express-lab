@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="abc/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	
+	<div class="dropdown float-right mr-3">
+     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Laptop
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Asus</a>
+    <a class="dropdown-item" href="#">LG</a>
+    <a class="dropdown-item" href="#">DELL</a>
+    <a class="dropdown-item" href="#">Acer</a>
+    <a class="dropdown-item" href="#">sony</a>
+    <a class="dropdown-item" href="#">sharp</a>
+    <a class="dropdown-item" href="#">Apple</a>
+    <a class="dropdown-item" href="#">TOSHIBA</a>
+    <a class="dropdown-item" href="#">Hp</a>
+    </div>
+    </div>
+	
+	<div class="dropdown float-right mr-3">
+     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     Ram
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Static RAM</a>
+    <a class="dropdown-item" href="#">DRAM</a>
+    <a class="dropdown-item" href="#">SDRAM</a>
+    <a class="dropdown-item" href="#">SDR SDRAM</a>
+    <a class="dropdown-item" href="#">DDR SDRAM</a>
+    <a class="dropdown-item" href="#">GDDR SDRAM</a>
+    </div>
+    </div>
+	
+	<div class="dropdown float-right mr-3" >
+     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     casing
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">The Desktop Model</a>
+    <a class="dropdown-item" href="#">Towesr</a>
+    <a class="dropdown-item" href="#">Small Form Factor</a>
+    <a class="dropdown-item" href="#">Mini Tower</a>
+    <a class="dropdown-item" href="#">Mid-Tower</a>
+    <a class="dropdown-item" href="#">Full Tower</a>
+    </div>
+    </div>
+	
+	<div class="dropdown float-right mr-3">
+     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     storage
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">hard drive</a>
+    <a class="dropdown-item" href="#">CD-ROM </a>
+    <a class="dropdown-item" href="#">DVD-ROM</a>
+    <a class="dropdown-item" href="#">flash media</a>
+    <a class="dropdown-item" href="#">memory stick</a>
+    <a class="dropdown-item" href="#">removable hard drive</a>
+    <a class="dropdown-item" href="#">back-up tape</a>
+    </div>
+    </div>
+	
+		<div class="dropdown float-right mr-3">
+     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Monitor
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Asus</a>
+    <a class="dropdown-item" href="#">LG</a>
+    <a class="dropdown-item" href="#">DELL</a>
+    <a class="dropdown-item" href="#">AOC Monitors</a>
+    <a class="dropdown-item" href="#">Acer</a>
+    <a class="dropdown-item" href="#">sony</a>
+    <a class="dropdown-item" href="#">view sonic</a>
+    <a class="dropdown-item" href="#">sharp</a>
+    <a class="dropdown-item" href="#">Apple</a>
+    <a class="dropdown-item" href="#">samsung</a>
+    <a class="dropdown-item" href="#">Hp</a>
+    </div>
+    </div>
+	
+		<div class="dropdown float-right mr-3">
+     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     Graphics card
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#"> Integrated</a>
+    <a class="dropdown-item" href="#">PCI</a>
+    <a class="dropdown-item" href="#">AGP</a>
+    <a class="dropdown-item" href="#"> PCI-Express</a>
+    </div>
+    </div>
+	<br>
+
+	<a href="/home/alluser"> View users</a> |
+	<a href="/logout"> logout</a><br>
+
+
+	Name:<%= user.username %>    <br>
+	Id: <%= user.id %> <br>
+	Password: <%= user.password %>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
